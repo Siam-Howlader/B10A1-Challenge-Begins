@@ -118,3 +118,60 @@ iframe{
     width: 100%;
     height: 550px;
 }
+.card{
+    height: 299px;
+    width: 364px;
+    border-radius: 16px;
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.card img{
+    margin-bottom: 24px;
+}
+.card .name{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.des{
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.card a{
+    color: black;
+}
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.cards{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 111px;
+}
+.cards2{
+    width:auto;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+}
+.cards2{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.name2{
+    font-weight: 900;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 8px;
+}
+.des2{
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.a{
+    color: black;
+}
