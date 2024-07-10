@@ -3,64 +3,93 @@
     margin: 0;
 }
 .first-section{
-    padding: 26px auto;
-    height:652px;
-    width: 100%;
     background-image: url("/assets/Hero-bg.png");
     background-size: cover;
     background-position: center;
+    /* padding: 26px auto; */
+    height:652px;
+    /* width: 1540px; */
+    
+}
+.group-image{
+    text-align: center;
+    margin-bottom: 32px
 }
 .banner-content{
-    width: 100%;
-    padding: 26px auto;
-    text-align: center;
-}
-.a-group-image,.para2{
-    text-align: center;
-    margin-bottom: 32px;
-}
-.para2{
-    margin-bottom: 24px;
-    width: 998px;
-    margin:0 auto;
-}
-.para2{
-    font-size: 48px;
-    line-height: 68px;
-    font-weight:900;
-    color: #0D1321;
-    margin-top: 24px;
+    padding: 26px 221px;
 }
 .para1{
-    text-align:center ;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 68px;
+    margin-bottom: 24px;
+}
+.para2{
+    text-align: center;
     opacity: 0.7;
+    font-size: 20px;
     line-height: 26px;
-    font-size: 16px;
     margin-bottom: 32px;
-    width: 852px;
-    margin: 0 auto;
-    margin-top: 24px;
 }
 .btn{
     text-align: center;
 }
 .btn button{
-    color: white;
-    font-weight: 600;
-    background-color: black;
     padding: 21px 24px;
+    background-color: black;
+    color: white;
     border-radius: 8px;
-    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .second-section{
-    padding: 80px auto;
-    width: 100%;
-    margin: 48px auto;
-    background-color: rgba(13, 19, 33, 0.02);
+    height: 1193px;
+    width: 1140px;
     border-radius: 16px;
+    padding: 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 74px 100px 0px;
 }
 .para3{
     font-size: 32px;
-    font-weight: 900;
+    font-weight: 800;
     text-align: center;
+    margin-bottom: 24px;
+}
+.ssd1,.ssd2{
+    padding: 48px;
+    background-color: white;
+    border-radius: 16px;
+}
+.para4{
+    margin-bottom: 16px;
+}
+.para5{
+    margin-bottom: 32px;
+    opacity: 0.7;
+}
+.ssd1 button,.ssd2 button{
+    padding: 12px 20px;
+    font-size: 20px;
+    background-color: white;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.ssd1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.ssd1d1{
+    width: 477px;
+}
+.ssd1d2{
+    height: 240px;
+    width: 240px;
+}
+.ssd2{
+    display: flex;
+    margin-bottom: 32px;
+    gap: 32px;
 }
